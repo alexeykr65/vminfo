@@ -8,7 +8,7 @@ from colorama import Fore, Style
 
 host = '192.168.180.46'
 user = 'root'
-secret = 'noncemale'
+secret = ''
 port = 22
 
 
