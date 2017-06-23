@@ -65,7 +65,7 @@ def listVmOnVmware():
 
 def main():
     args = cmdArgsParser()
-    
+
     print "Host IP address: " + host
     print(args.host)
     
@@ -95,5 +95,4 @@ def main():
 if __name__ == '__main__':
     
     secret = getpass.getpass('Password:')
-    print "Password : " + secret
     sys.exit(main())
